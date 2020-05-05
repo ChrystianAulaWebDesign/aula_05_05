@@ -1,0 +1,27 @@
+.buttons
+{
+    text-decoration: none;
+    color: blue;
+    line-height: 30px;
+    display: block;
+    float:left;
+    padding-left: 10px;
+    padding-right: 10px;
+	border: 1px solid #d4cac9;
+}
+div > a:first-child {
+	border-radius: 4px 0px 0px 4px;
+}
+
+div > a:last-child {
+	border-radius: 0px 4px 4px 0px;
+}
+
+div > a:not(:first-child) {
+	border-left: 0px;
+}
+
+.buttons:hover
+{
+    background-color: #91a8cf;
+}
